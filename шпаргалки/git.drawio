@@ -1,0 +1,122 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Страница — 1" id="v2hwKiddZkDPaN1PDf2q">
+    <mxGraphModel dx="1050" dy="1734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-1" value="GIT&lt;br&gt;Система контроля версий" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-2" value="Добавление проекта в репозиторий" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-3" value="Создаем&lt;div&gt;папку&lt;/div&gt;&lt;div&gt;с файлом .py&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wyXF9gdrhZRpSDo4kUH7-2" target="wyXF9gdrhZRpSDo4kUH7-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="720" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-4" value="Командная строка" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="720" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-5" value="В терминале перейти&lt;div&gt;в папку проекта&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wyXF9gdrhZRpSDo4kUH7-4" target="wyXF9gdrhZRpSDo4kUH7-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="340" as="sourcePoint" />
+            <mxPoint x="1010" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-6" value="cmd в папке" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="970" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-7" value="git init" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wyXF9gdrhZRpSDo4kUH7-6" target="wyXF9gdrhZRpSDo4kUH7-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="340" as="sourcePoint" />
+            <mxPoint x="1250" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-9" value="Папка помечена, как инициированная, в папке появилась папка git" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="135" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-10" value="Удалить папку&lt;br&gt;чтоб начать с нуля" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wyXF9gdrhZRpSDo4kUH7-9" target="wyXF9gdrhZRpSDo4kUH7-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="340" as="sourcePoint" />
+            <mxPoint x="1225" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-11" value="Проект не инициализирован" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-12" value="git status" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wyXF9gdrhZRpSDo4kUH7-9" target="wyXF9gdrhZRpSDo4kUH7-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="340" as="sourcePoint" />
+            <mxPoint x="1470" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-13" value="Информация о статусе гита" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wyXF9gdrhZRpSDo4kUH7-13" target="wyXF9gdrhZRpSDo4kUH7-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="340" as="sourcePoint" />
+            <mxPoint x="1360" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-15" value="Название ветки" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wyXF9gdrhZRpSDo4kUH7-13" target="wyXF9gdrhZRpSDo4kUH7-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="230" as="sourcePoint" />
+            <mxPoint x="1470" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-17" value="Состояние коммитов" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="-20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wyXF9gdrhZRpSDo4kUH7-13" target="wyXF9gdrhZRpSDo4kUH7-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="230" as="sourcePoint" />
+            <mxPoint x="1570" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-19" value="Состояние файлов" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-20" value="git add ." style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wyXF9gdrhZRpSDo4kUH7-13" target="wyXF9gdrhZRpSDo4kUH7-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="230" as="sourcePoint" />
+            <mxPoint x="1740" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-21" value="все файлы в папке проекта добавлены к отслеживанию" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-22" value="git add file.py" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wyXF9gdrhZRpSDo4kUH7-13" target="wyXF9gdrhZRpSDo4kUH7-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="230" as="sourcePoint" />
+            <mxPoint x="1770" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-23" value="Конкретный файл добавлен к отслеживанию" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="80" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-24" value="git commit -m &quot;коммент&quot;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wyXF9gdrhZRpSDo4kUH7-21" target="wyXF9gdrhZRpSDo4kUH7-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1870" y="230" as="sourcePoint" />
+            <mxPoint x="1920" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-25" value="В проекте в папке git сохранена версия отслеживаемых файлов" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="150" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wyXF9gdrhZRpSDo4kUH7-26" value="git commit -m &quot;коммент&quot;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wyXF9gdrhZRpSDo4kUH7-23" target="wyXF9gdrhZRpSDo4kUH7-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1768" y="296" as="sourcePoint" />
+            <mxPoint x="1981" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
