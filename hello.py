@@ -1,1 +1,1 @@
-print('qwer hi world!')
+print('hi meen!')
