@@ -1,1 +1,1 @@
-print('hi meen!')
+print('hi zalupa!')
