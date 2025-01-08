@@ -140,7 +140,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RFbKVdMYS6WmCdqGn8fj-30" value="Сторонние" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="-490" y="95" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RFbKVdMYS6WmCdqGn8fj-31" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="RFbKVdMYS6WmCdqGn8fj-3" target="RFbKVdMYS6WmCdqGn8fj-30" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -148,16 +148,76 @@
             <mxPoint x="-140" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RFbKVdMYS6WmCdqGn8fj-32" value="Требуют установки" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-680" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="sEicUjzaIH7FXDkEYWHz-1" value="Команду для установки смотреть тут:&amp;nbsp;https://pypi.org/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="-250" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sEicUjzaIH7FXDkEYWHz-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="RFbKVdMYS6WmCdqGn8fj-30" target="sEicUjzaIH7FXDkEYWHz-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-450" y="480" as="sourcePoint" />
-            <mxPoint x="-400" y="430" as="targetPoint" />
+            <mxPoint x="-500" y="45" as="sourcePoint" />
+            <mxPoint x="-450" y="-5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-3" value="Всякие модули лучше устанавливать в виртуальное окружение, там проще контролировать версионность, особенно при работе в команде" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="140" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="sEicUjzaIH7FXDkEYWHz-3" target="RFbKVdMYS6WmCdqGn8fj-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-510" y="430" as="sourcePoint" />
+            <mxPoint x="-460" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-5" value="Создание&lt;div&gt;модуля&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1" source="RFbKVdMYS6WmCdqGn8fj-3" target="sEicUjzaIH7FXDkEYWHz-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-510" y="430" as="sourcePoint" />
+            <mxPoint x="-480" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-438" y="570" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-7" value="Файл&lt;div&gt;с функциями&lt;/div&gt;&lt;div&gt;в одной&lt;/div&gt;&lt;div&gt;дирректории&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="sEicUjzaIH7FXDkEYWHz-6" target="sEicUjzaIH7FXDkEYWHz-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-550" y="670" as="sourcePoint" />
+            <mxPoint x="-660" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-8" value="Создаем файл с именем: helper.py&lt;div&gt;Пишем внутри функции и всё, что нужно:&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;def&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;assist&lt;/span&gt;():&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;print&lt;/span&gt;(&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;Zalupa&#39;&lt;/span&gt;)&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;variable&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;Mnogo bykov&#39;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="750" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="sEicUjzaIH7FXDkEYWHz-8" target="sEicUjzaIH7FXDkEYWHz-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-550" y="670" as="sourcePoint" />
+            <mxPoint x="-620" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-10" value="В файле с кодом в нужной директории делаем импорт и используем всё, что надо:&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;import&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;helper&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;helper&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;assist&lt;/span&gt;()&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;print&lt;/span&gt;(&lt;span style=&quot;color: #4ec9b0;&quot;&gt;helper&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;variable&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="930" width="205" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-11" value="В отдельной&lt;div&gt;директории&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="sEicUjzaIH7FXDkEYWHz-6" target="sEicUjzaIH7FXDkEYWHz-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-550" y="670" as="sourcePoint" />
+            <mxPoint x="-300" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-12" value="Всё то же, но пишем путь от корневого каталога проекта, но без указания названия проекта. Если есть вложенные папки, пишем через точку&lt;br&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;from&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;utils&lt;/span&gt; &lt;span style=&quot;color: #c586c0;&quot;&gt;import&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;helper&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;helper&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;assist&lt;/span&gt;()&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;print&lt;/span&gt;(&lt;span style=&quot;color: #4ec9b0;&quot;&gt;helper&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;variable&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-306.5" y="730" width="233" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-13" value="Если&lt;div&gt;нужна&lt;/div&gt;&lt;div&gt;одна ф-ция&lt;/div&gt;&lt;div&gt;из модуля&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="sEicUjzaIH7FXDkEYWHz-6" target="sEicUjzaIH7FXDkEYWHz-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-550" y="670" as="sourcePoint" />
+            <mxPoint x="-390" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-14" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;from&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;utils&lt;/span&gt;.&lt;span style=&quot;color: #4ec9b0;&quot;&gt;helper&lt;/span&gt; &lt;span style=&quot;color: #c586c0;&quot;&gt;import&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;assist&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;assist&lt;/span&gt;()&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1010" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-15" value="Преимущества импортирования только функции:&lt;div&gt;&lt;ul&gt;&lt;li&gt;Не занимается память, ведь программе не нужно запоминать все функции модуля&lt;/li&gt;&lt;li&gt;Чистый код - не нужно писать например time.sleep()&lt;br&gt;достаточно только sleep()&lt;/li&gt;&lt;li&gt;Уменьшение рисков конфликтов имен - в разных модулях могут быть одинаковые имена функций&lt;/li&gt;&lt;li&gt;( - ) есть мнение, что функции в коде становятся менее читаемыми, поскольку там не указано из каких модулей берутся функции&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Если в разных модулях есть фции с одинаковыми названиями, мы можем переименовать отдельные ф-ции в импорте с помощью as&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-635" y="1160" width="385" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="sEicUjzaIH7FXDkEYWHz-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="sEicUjzaIH7FXDkEYWHz-14" target="sEicUjzaIH7FXDkEYWHz-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-550" y="970" as="sourcePoint" />
+            <mxPoint x="-500" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

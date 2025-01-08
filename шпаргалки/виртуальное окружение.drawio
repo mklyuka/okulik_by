@@ -25,6 +25,15 @@
         <mxCell id="RPkXE7Cwv0xzIH_GUegP-6" value="&lt;div&gt;.\venv\Scripts\activate&lt;/div&gt;&lt;div&gt;В терминале увидим:&lt;/div&gt;&lt;div&gt;(venv) PS C:\Users\Maksim...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="430" width="160" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="RPkXE7Cwv0xzIH_GUegP-7" value="Выход" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="RPkXE7Cwv0xzIH_GUegP-6" target="RPkXE7Cwv0xzIH_GUegP-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="330" as="sourcePoint" />
+            <mxPoint x="320" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RPkXE7Cwv0xzIH_GUegP-8" value="&lt;div&gt;deactivate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
