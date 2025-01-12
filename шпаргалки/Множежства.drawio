@@ -1,0 +1,367 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
+  <diagram name="Страница — 1" id="-S9uFCu_6sI4gj3oBR9R">
+    <mxGraphModel dx="1462" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sf96d87RlTaQl22xVrYX-49" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-1" target="Sf96d87RlTaQl22xVrYX-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="570" as="sourcePoint" />
+            <mxPoint x="430" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-1" value="Множества" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="660" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-2" value="[список]&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;a&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; [&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;, &lt;span style=&quot;color: #b5cea8;&quot;&gt;3&lt;/span&gt;, &lt;span style=&quot;color: #b5cea8;&quot;&gt;6&lt;/span&gt;, &lt;span style=&quot;color: #b5cea8;&quot;&gt;7&lt;/span&gt;, &lt;span style=&quot;color: #569cd6;&quot;&gt;None&lt;/span&gt;, &lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;text&#39;&lt;/span&gt;]&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="680" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-3" value="(кортеж)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-4" value="{множество}" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-5" value="Для хранения данных, которые могут меняться" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-6" value="Для неизменяемых коллекций" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-7" value="Для хранения уникальных элементов" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-9" value="Самый быстрый" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-10" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-5" target="Sf96d87RlTaQl22xVrYX-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="980" as="sourcePoint" />
+            <mxPoint x="430" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-11" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-6" target="Sf96d87RlTaQl22xVrYX-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="790" as="sourcePoint" />
+            <mxPoint x="470" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-12" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-7" target="Sf96d87RlTaQl22xVrYX-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="790" as="sourcePoint" />
+            <mxPoint x="190" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-13" value="Обращение по индексу&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;a&lt;/span&gt;[&lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;2&lt;/span&gt;]&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-14" value="Получение элементов с конца&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;a&lt;/span&gt;[&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;1&lt;/span&gt;]&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-15" value="Изменение элементов&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;a&lt;/span&gt;[&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;] &lt;span style=&quot;color: #d4d4d4;&quot;&gt;+=&lt;/span&gt; &lt;span style=&quot;color: #b5cea8;&quot;&gt;10&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-16" value="Добавление значения в конец&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;a&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;append&lt;/span&gt;(&lt;span style=&quot;color: #569cd6;&quot;&gt;False&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-17" value="Количество элементов&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;len&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;a&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-18" value="поиск индекса по значению&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;a&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;index&lt;/span&gt;(&lt;span style=&quot;color: #b5cea8;&quot;&gt;3&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-19" value="Удаление по индексу&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;a&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;pop&lt;/span&gt;(&lt;span style=&quot;color: #d4d4d4;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-20" value="если значения одинаковые, возвращает первое" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-21" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-20" target="Sf96d87RlTaQl22xVrYX-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="1180" as="sourcePoint" />
+            <mxPoint x="190" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-22" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;a&lt;/span&gt;.&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;pop&lt;/span&gt;(&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;1&lt;/span&gt;)&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;содержит удаленное&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;значение&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="1720" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-23" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-22" target="Sf96d87RlTaQl22xVrYX-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="1540" as="sourcePoint" />
+            <mxPoint x="190" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-24" value="Поиск в списке&lt;div&gt;(True / False)&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;None&lt;/span&gt; &lt;span style=&quot;color: rgb(197, 134, 192);&quot;&gt;in&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;a&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-25" value="Подсчет указанных элементов в списке&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;a&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;count&lt;/span&gt;(&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-26" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-13" target="Sf96d87RlTaQl22xVrYX-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1300" as="sourcePoint" />
+            <mxPoint x="300" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-27" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-14" target="Sf96d87RlTaQl22xVrYX-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="930" as="sourcePoint" />
+            <mxPoint x="130" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-28" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-17" target="Sf96d87RlTaQl22xVrYX-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="1050" as="sourcePoint" />
+            <mxPoint x="130" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-29" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-18" target="Sf96d87RlTaQl22xVrYX-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="1170" as="sourcePoint" />
+            <mxPoint x="130" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-30" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-24" target="Sf96d87RlTaQl22xVrYX-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="1290" as="sourcePoint" />
+            <mxPoint x="120" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-31" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-15" target="Sf96d87RlTaQl22xVrYX-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="1410" as="sourcePoint" />
+            <mxPoint x="50" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-32" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-19" target="Sf96d87RlTaQl22xVrYX-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="1530" as="sourcePoint" />
+            <mxPoint x="130" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-33" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-16" target="Sf96d87RlTaQl22xVrYX-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="1770" as="sourcePoint" />
+            <mxPoint x="130" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-34" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-16" target="Sf96d87RlTaQl22xVrYX-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1300" as="sourcePoint" />
+            <mxPoint x="300" y="1250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="1910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-35" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1300" as="sourcePoint" />
+            <mxPoint x="420" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-36" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1189.47" as="sourcePoint" />
+            <mxPoint x="420" y="1189.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-37" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1069.47" as="sourcePoint" />
+            <mxPoint x="420" y="1069.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-38" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="949.47" as="sourcePoint" />
+            <mxPoint x="420" y="949.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-39" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1429.47" as="sourcePoint" />
+            <mxPoint x="420" y="1429.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-40" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1669.47" as="sourcePoint" />
+            <mxPoint x="420" y="1669.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-41" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1789.47" as="sourcePoint" />
+            <mxPoint x="420" y="1789.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-42" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-24" target="Sf96d87RlTaQl22xVrYX-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1290" as="sourcePoint" />
+            <mxPoint x="380" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-43" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1309.47" as="sourcePoint" />
+            <mxPoint x="700" y="1309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-44" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1189.94" as="sourcePoint" />
+            <mxPoint x="700" y="1189.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-45" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1069.94" as="sourcePoint" />
+            <mxPoint x="700" y="1069.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-46" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="949.94" as="sourcePoint" />
+            <mxPoint x="700" y="949.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-47" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-1" target="Sf96d87RlTaQl22xVrYX-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="830" as="sourcePoint" />
+            <mxPoint x="290" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-48" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-1" target="Sf96d87RlTaQl22xVrYX-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="396" y="551" as="sourcePoint" />
+            <mxPoint x="177" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-50" value="Словарь" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="870" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-51" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;my_dict&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; {&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;value_1&#39;&lt;/span&gt;, &lt;span style=&quot;color: #b5cea8;&quot;&gt;2&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;value_2&#39;&lt;/span&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="775" y="470" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-52" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;получение значения из словаря&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;my_dict&lt;/span&gt;[&lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;1&lt;/span&gt;]&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="370" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-53" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;получение количества элементов&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;len&lt;/span&gt;(&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;my_dict&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="450" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-54" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;изменение значения по ключу&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;my_dict&lt;/span&gt;[&lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;2&lt;/span&gt;] &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&#39;pupa&#39;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="530" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-55" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;добавление пары&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;my_dict&lt;/span&gt;[&lt;span style=&quot;color: #b5cea8;&quot;&gt;3&lt;/span&gt;] &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;zalupa&#39;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="610" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-56" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;Получить все ключи&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;list&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204);&quot;&gt;(&lt;/span&gt;my_dict&lt;/span&gt;.&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;keys&lt;/span&gt;())&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="690" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-57" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;получить все значения&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;list&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204);&quot;&gt;(&lt;/span&gt;my_dict&lt;/span&gt;.&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;values&lt;/span&gt;())&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="770" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-58" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;преобразование всех значений в список&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;list&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;my_dict&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;values&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="850" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-59" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;получить все ключи и значения словаря&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;my_dict&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;items&lt;/span&gt;()&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="930" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-60" value="&lt;span style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: start; white-space: pre;&quot;&gt;dict_values([&#39;value_1&#39;, &#39;pupa&#39;, &#39;zalupa&#39;])&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="785" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-61" value="&lt;span style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: start; white-space: pre;&quot;&gt;dict_items([(1, &#39;value_1&#39;), (2, &#39;pupa&#39;), (3, &#39;zalupa&#39;)])&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="945" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-62" value="&lt;span style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: start; white-space: pre;&quot;&gt;dict_keys([1, 2, 3])&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="705" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-63" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-56" target="Sf96d87RlTaQl22xVrYX-62" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1530" y="730" as="sourcePoint" />
+            <mxPoint x="1580" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-64" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-57" target="Sf96d87RlTaQl22xVrYX-60" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="730" as="sourcePoint" />
+            <mxPoint x="1540" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-65" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-59" target="Sf96d87RlTaQl22xVrYX-61" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="810" as="sourcePoint" />
+            <mxPoint x="1540" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-66" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-1" target="Sf96d87RlTaQl22xVrYX-50" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="710" as="sourcePoint" />
+            <mxPoint x="1030" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-67" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-51" target="Sf96d87RlTaQl22xVrYX-50" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="400" as="sourcePoint" />
+            <mxPoint x="880" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-68" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-52" target="Sf96d87RlTaQl22xVrYX-50" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="480" as="sourcePoint" />
+            <mxPoint x="940" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-69" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-25" target="Sf96d87RlTaQl22xVrYX-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="1650" as="sourcePoint" />
+            <mxPoint x="130" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-70" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1549.3700000000001" as="sourcePoint" />
+            <mxPoint x="420" y="1549.3700000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-71" value="Распаковка&lt;div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;my_list&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; [&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;, &lt;span style=&quot;color: #b5cea8;&quot;&gt;3&lt;/span&gt;]&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;a&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;b&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;my_list&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-72" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-71" target="Sf96d87RlTaQl22xVrYX-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1690" as="sourcePoint" />
+            <mxPoint x="290" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-73" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-71" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1690" as="sourcePoint" />
+            <mxPoint x="700" y="1430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="2030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-74" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="2030" as="sourcePoint" />
+            <mxPoint x="420" y="1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-75" value="Удаление по значению&lt;div&gt;&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(204, 204, 204);&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;a&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;remove&lt;/span&gt;(&lt;/span&gt;&lt;font color=&quot;#9cdcfe&quot;&gt;&#39;text&#39;&lt;/font&gt;&lt;font color=&quot;#cccccc&quot;&gt;)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf96d87RlTaQl22xVrYX-76" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" source="Sf96d87RlTaQl22xVrYX-75" target="Sf96d87RlTaQl22xVrYX-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="1730" as="sourcePoint" />
+            <mxPoint x="310" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

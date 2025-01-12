@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Страница — 1" id="S1z7AOZf5Ri7h-osr3ie">
+    <mxGraphModel dx="792" dy="2222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-1" value="Расширение файла: .ipynb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-2" value="&lt;ul&gt;&lt;li&gt;Позволяет писать текст&lt;/li&gt;&lt;li&gt;Позволяет писать блоки кода и отдельно запускать их&lt;/li&gt;&lt;li&gt;Удобно использовать как конспект&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="595" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-4" value="Плюшки IDE" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="BQ-pBPqmexbBJ3Fc0f2P-1" target="BQ-pBPqmexbBJ3Fc0f2P-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="570" as="sourcePoint" />
+            <mxPoint x="360" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="BQ-pBPqmexbBJ3Fc0f2P-1" target="BQ-pBPqmexbBJ3Fc0f2P-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="570" as="sourcePoint" />
+            <mxPoint x="360" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-8" value="Операторы" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="910" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-9" value="Принадлежности" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-10" value="Арифметические" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-11" value="Сравнения" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-12" value="Присваивания" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-13" value="Логические" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-14" value="Битовые" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="BQ-pBPqmexbBJ3Fc0f2P-9" target="BQ-pBPqmexbBJ3Fc0f2P-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="140" as="sourcePoint" />
+            <mxPoint x="870" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="BQ-pBPqmexbBJ3Fc0f2P-10" target="BQ-pBPqmexbBJ3Fc0f2P-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="160" as="sourcePoint" />
+            <mxPoint x="922" y="207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="BQ-pBPqmexbBJ3Fc0f2P-11" target="BQ-pBPqmexbBJ3Fc0f2P-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="864" y="10" as="sourcePoint" />
+            <mxPoint x="943" y="184" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="BQ-pBPqmexbBJ3Fc0f2P-12" target="BQ-pBPqmexbBJ3Fc0f2P-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="30" as="sourcePoint" />
+            <mxPoint x="983" y="187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="BQ-pBPqmexbBJ3Fc0f2P-13" target="BQ-pBPqmexbBJ3Fc0f2P-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="250" as="sourcePoint" />
+            <mxPoint x="999" y="226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="BQ-pBPqmexbBJ3Fc0f2P-14" target="BQ-pBPqmexbBJ3Fc0f2P-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="420" as="sourcePoint" />
+            <mxPoint x="973" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-22" value="or" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-23" value="and" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-24" value="=" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BQ-pBPqmexbBJ3Fc0f2P-25" value="in" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

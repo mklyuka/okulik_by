@@ -1,0 +1,5 @@
+вход в окружение:
+.\venv\Scripts\activate
+
+выход из окружения:
+deactivate
